@@ -3,7 +3,7 @@ var data = {
     {
       'id': '1',
       'nombre': 'Chifa Palacio',
-      'direccion': 'Av Guardia Civil 124',
+      'direccion': 'Av Guardia Civil 124 - Chorrillos',
       'telefono': '01435220',
       'categoria': 'Oriental',
       'valoracion': 'Excelente',
@@ -16,7 +16,7 @@ var data = {
     {
       'id': '2',
       'nombre': 'Restaurant Criollo Maria Pastor',
-      'direccion': 'Av Matellini 855',
+      'direccion': 'Av Matellini 855 - Chorrillos',
       'telefono': '014465155',
       'categoria': 'Criollo',
       'valoracion': 'Regular',
@@ -29,7 +29,7 @@ var data = {
     {
       'id': '3',
       'nombre': 'Restaurant Criollo La 5ta de Abtao',
-      'direccion': 'Av El Sol 445',
+      'direccion': 'Av El Sol 445 - Chorrillos',
       'telefono': '01611620',
       'categoria': 'Criollo',
       'valoracion': 'Buena',
@@ -42,7 +42,7 @@ var data = {
     {
       'id': '4',
       'nombre': 'Restaurant Marino Maria',
-      'direccion': 'Av El Sol 873',
+      'direccion': 'Av El Sol 873 - Chorrillos',
       'telefono': '01711620',
       'categoria': 'Marino',
       'valoracion': 'Excelente',
@@ -55,7 +55,7 @@ var data = {
     {
       'id': '5',
       'nombre': 'Restaurant Marino Conga',
-      'direccion': 'Av Huaylas 273',
+      'direccion': 'Av Huaylas 273 - Chorrillos',
       'telefono': '01711020',
       'categoria': 'Marino',
       'valoracion': 'Buena',
@@ -68,7 +68,7 @@ var data = {
     {
       'id': '6',
       'nombre': 'Pizzeria Peruita',
-      'direccion': 'Calle Los Manglares 935',
+      'direccion': 'Calle Los Manglares 935 - Chorrillos',
       'telefono': '01251090',
       'categoria': 'Italiano',
       'valoracion': 'Buena',
@@ -81,7 +81,7 @@ var data = {
     { 
       'id': '7',
       'nombre': 'Pizzeria La Linterna',
-      'direccion': 'Av El Sol 273',
+      'direccion': 'Av El Sol 273 - Chorrillos',
       'telefono': '01551090',
       'categoria': 'Italiano',
       'valoracion': 'Buena',
@@ -94,7 +94,7 @@ var data = {
    {  
      'id': '8',
      'nombre': 'Restaurant Vegetariano Meli Melo',
-     'direccion': 'Calle Los Pumas 765',
+     'direccion': 'Calle Los Pumas 765 - Chorrillos',
      'telefono': '01251090',
      'categoria': 'Vegetariano',
      'valoracion': 'Buena',
@@ -107,7 +107,7 @@ var data = {
     { 
       'id': '9',
       'nombre': 'Chifa Joy Sam',
-      'direccion': 'Av Matellini 955',
+      'direccion': 'Av Matellini 955 - Chorrillos',
       'telefono': '01245620',
       'categoria': 'Oriental',
       'valoracion': 'Buena',

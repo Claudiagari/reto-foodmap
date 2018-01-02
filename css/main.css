@@ -1,0 +1,37 @@
+body {
+	font-family: 'Oswald', sans-serif;
+	color: #ff9c38;
+}
+.background{
+	background: #000;
+}
+.container-flex-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 2em;
+}
+.vh100{
+	height: 100vh;
+}
+/*Clases para main pages*/
+.main .row {
+	padding: 5px 15px;
+}
+.img-restaurant .col-xs-4 {
+	padding:8px 5px;
+}
+.opacity{
+	opacity: 0.5;
+	width:30%;
+}
+/*Clase para modal*/
+.modal-dialog{
+	color: #000;
+}
+.modal-footer{
+	text-align: center;
+}
+.modal-dialog .btn {
+	background: #ff9c38;
+}

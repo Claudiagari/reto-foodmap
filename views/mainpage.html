@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Insertando los links-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Foodmap</title>
+</head>
+<!--Pagina principal donde se filtra los restaurantes-->
+<body class="background vh100">
+    <div class="container-fluid text-center main">
+        <div class="row">
+            <div class="col-xs-12 col-md-12">
+                <h1>Foodmap</h1>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-offset-1 col-xs-10 col-xs-offset-1 col-md-offset-1 col-md-10 col-md-offset-1">
+                <img src="../assets/images/mapa.jpg" class="img-responsive" alt="">
+            </div>
+        </div>
+        <!--Parte para filtrar por categoria los restaurantes-->
+        <div class="row">
+            <div class="col-xs-offset-2 col-xs-8 col-xs-offset-2 col-md-offset-2 col-md-8 col-md-offset-2">
+                <h3>Comida cerca de ti</h3>
+                <select class="form-control">
+                    <option value="Filtrar restaurantes">Filtrar restaurantes</option>
+                    <option value="Oriental">Oriental</option>
+                    <option value="Criollo">Criollo</option>
+                    <option value="Marino">Marino</option>
+                    <option value="Italiano">Italiano</option>
+                    <option value="Vegetariano">Vegetariano</option>
+                </select>
+            </div>
+        </div>
+        <!--Parte donde llenar con la data los restaurantes-->
+        <div class="row img-restaurant">
+        </div>
+        <div class="modal fade" tabindex="-1" id="info" role="dialog" aria-labelledby="gridSystemModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h4 class="modal-title" id="name"></h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-xs-offset-1 col-xs-10 col-xs-offset-1" id="photo"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                                <p id="assessment"></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+                                <p id="direction"></p>
+                            </div>
+                            <div class="col-xs-6">
+                                <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>
+                                <p id="phone"></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+                                <p id="schedule"></p>
+                            </div>
+                            <div class="col-xs-6">
+                                <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+                                <p id="price"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default btn-lg" data-dismiss="modal">Pedir Ahora</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="../vendors/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/data.js"></script>
+    <script type="text/javascript" src="../js/mainpage.js"></script>
+</body>
+</html>
